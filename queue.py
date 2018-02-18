@@ -23,3 +23,6 @@ class Queue(object):
 
     def copy(self):
         return Queue(self._front, self._back)
+
+    def __len__(self):
+        return len(self._front) + len(self._back)
