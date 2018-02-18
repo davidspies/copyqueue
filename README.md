@@ -1,0 +1,2 @@
+# copyqueue
+Copyable Python queues
